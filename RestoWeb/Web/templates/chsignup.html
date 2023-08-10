@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% block title %}
+Register
+{% endblock %}
+{% block content %}
+<div style="margin: 40px; align-items: center; text-align: center;">
+   <form method="POST" class="form-login">
+      {{ form.name.label(class='form-label') }}
+      <br><br>
+      {{ form.name(class="form-control") }}
+      <br><br>
+      {{ form.email.label(class='form-label') }}
+      <br><br>
+      {{ form.email(class="form-control") }}
+      <br><br>
+      {{ form.password.label(class='form-label') }}
+      <br><br>
+      {{ form.password(class="form-control") }}
+      <br><br>
+      {{ form.password1.label(class='form-label') }}
+      <br><br>
+      {{ form.password1(class="form-control") }}
+      <br><br>
+      {{ form.submit(class='form-submit') }}
+      {{form.csrf_token}}
+      <br><br>
+   </form>
+</div>
+{% endblock %}

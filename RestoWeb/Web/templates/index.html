@@ -1,0 +1,24 @@
+{% extends 'base.html'%}
+{%block title%}
+Home
+{%endblock%}
+{% block navig %}
+<div style="margin-top: 12px;">
+   <a href="{{url_for('index')}}" style="padding: 10px;">Home</a>
+   <a href="{{url_for('chlogin')}}">Staff</a>
+</div>
+{% endblock %}
+{% block content %}
+<div style="align-items: center; text-align: center;">
+   <h1 style="color: aliceblue; padding: 10px;">Welcome to RestoWeb</h1>
+   <div class="links">
+      <a>Customer </a>
+      <a href="{{url_for('culogin')}}">Old?</a>
+      <a>or</a>
+      <a href="{{url_for('cusignup')}}">New?</a>      
+   </div>
+   <div class="body">
+      <img src="/static/home.png" alt="food">
+   </div>
+</div>
+{% endblock %}

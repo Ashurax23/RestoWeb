@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% block title %}
+Chef login    
+{% endblock %}
+{% block navig %}
+<div style="margin-top: 12px;">
+   <a href="{{url_for('index')}}" style="padding: 10px;">Home</a>
+   <a href="{{url_for('chlogin')}}">Staff</a>
+</div>
+{% endblock %}
+{% block content %}
+<div style="margin: 40px; padding: 20px;">
+   <form method="POST" class="form-login">
+      {{ form.email.label(class="form-label") }}
+      <br>
+      <br>
+      {{ form.email(class="form-control") }}
+      <br>
+      <br>
+      {{ form.password.label(class="form-label") }}
+      <br>
+      <br>
+      {{ form.password(class='form-control') }}
+      <br><br>
+      {{ form.submit(class="form-submit") }}
+      {{form.csrf_token}}
+   </form>
+</div>
+{% endblock %}

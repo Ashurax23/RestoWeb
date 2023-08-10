@@ -1,0 +1,171 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-weight: 100;
+    background-color:rgb(69, 47, 118);
+    padding: 0px;
+    margin: 0px;
+    }
+    .alert {
+    padding: 20px;
+    background-color: #2196F3;
+    color: white;
+    opacity: 1;
+    transition: opacity 0.6s;
+    margin-bottom: 15px;
+    }
+    .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s; }
+    .closebtn:hover {
+    color: black; }
+    a{
+    text-decoration: none;
+    color: aliceblue;
+    }
+    .navbar{
+    padding:20px;
+    background-color: rgb(69, 57, 97);
+    }
+    .logo{
+    font-size: 2.3rem;
+    font-weight: 400;
+    color: gold;
+    -webkit-text-stroke: 0.4px white;
+    }
+    .links a{
+    color: aliceblue;
+    font-size: 2.4rem;
+    padding: 10px;
+    }
+    .form-login{
+    color: aliceblue;
+    text-align: center;
+    align-items: center;
+    }
+    .form-submit{
+    margin: 10px;
+    height:40px;
+    width: 120px;
+    border-radius: 10px;
+    background-color: rgba(248, 252, 255, 0);
+    font-size: 18px;
+    font-weight: bold;
+    color: aliceblue;
+    }
+    .form-submit:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(76, 52, 128);
+    }
+    p{
+    color: aliceblue;
+    font-size: 17px;
+    }
+    .alert {
+    padding: 20px;
+    background-color: #2196F3;
+    color: white;
+    opacity: 1;
+    transition: opacity 0.6s;
+    margin-bottom: 15px;
+    }
+    .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s; }
+    .closebtn:hover {
+    color: black; }
+    a{
+    text-decoration: none;
+    color: aliceblue;
+    }
+    .navbar{
+    padding:20px;
+    background-color: rgb(69, 57, 97);
+    }
+    .logo{
+    font-size: 2.3rem;
+    font-weight: 400;
+    color: gold;
+    -webkit-text-stroke: 0.4px white;
+    }
+    .links a{
+    color: aliceblue;
+    font-size: 2.4rem;
+    padding: 10px;
+    }
+    .form-login{
+    color: aliceblue;
+    text-align: center;
+    align-items: center;
+    }
+    .form-label{
+    color:aliceblue;
+    font-size: 21px;
+    display: inline;
+    }
+    .form-control{
+    display: inline;
+    height: 32px;
+    border-radius: 5px;
+    font-size: 18px;
+    width:250px;
+    }
+    .form-submit{
+    margin: 10px;
+    height:40px;
+    width: 120px;
+    border-radius: 10px;
+    background-color: rgba(248, 252, 255, 0);
+    font-size: 18px;
+    font-weight: bold;
+    color: aliceblue;
+    }
+    .form-submit:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(76, 52, 128);
+    }
+    p{
+    color: aliceblue;
+    font-size: 17px;
+    }
+    table.edTable { 
+    margin-left:auto; 
+    margin-right:auto; 
+    width: 90%; 
+    font: 20px tahoma; } 
+    table, table.edTable th, table.edTable td { 
+    border: solid 1px #9b58b5; 
+    border-collapse: collapse;
+    padding: 7px 3px; text-align: center; } 
+    table.edTable td { background-color: #86509d; 
+    color: #ffffff; 
+    font-size: 18px; } 
+    table.edTable th { background-color : #7c4b90; 
+    color: #ffffff; } 
+    tr:hover td { background-color: #694378; 
+    color: #dddddd; } 
+    .button {
+    font-size: 14px;
+    margin-left: auto;
+    margin-right:auto;
+    display: block;
+    width: 80px;
+    height: 15px;
+    background: #3a6af0;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    }
